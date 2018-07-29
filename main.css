@@ -4,26 +4,32 @@ body {
 	background-color: white;
 }
 
+p {
+	font-size: 15px;
+}
+
 h1 {
 	border-radius: 6px;
-	font-size: 30px;
-	margin-top: 30px;
+	font-size: 40px;
 	/*margin-top: 1000px;*/
 	padding: 20px;
 	text-align: center;
 
 }
 
+h2 {
+	font-size: 30px;
+}
+
 .bBG {
 	background-color: rgba(0, 0, 0, .8);
 	color: white;
 	border: 3px solid white;
-}
-
-nav {
+	text-align: center;
 	margin-top: 20px;
 }
 
+/*Nav Area*/
 ul {
 	text-align: center;
 
