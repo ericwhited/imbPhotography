@@ -2,16 +2,17 @@ body {
 	width: 350px;
 	margin: 0 auto;
 	background-color: white;
+	font-family: 'Montserrat', sans-serif;
 }
 
 p {
-	font-size: 15px;
+	font-size: 20px;
+	padding: 20px;
 }
 
 h1 {
 	border-radius: 6px;
-	font-size: 40px;
-	/*margin-top: 1000px;*/
+	font-size: 35px;
 	padding: 20px;
 	text-align: center;
 
@@ -19,6 +20,8 @@ h1 {
 
 h2 {
 	font-size: 30px;
+	padding: 20px;
+	text-align: center;
 }
 
 .bBG {
@@ -27,9 +30,14 @@ h2 {
 	border: 3px solid white;
 	text-align: center;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 /*Nav Area*/
+nav {
+	margin-bottom: 30px;
+}
+
 ul {
 	text-align: center;
 
@@ -39,5 +47,52 @@ li {
 	display: inline-block;
 	font-size: 20px;
 	margin: 5px 0;
-	padding: 10px 27px;	
+	padding: 14px 17px;	
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/*Album Page CSS*/
+
+.albums {
+	height: 100px;
+	width: 350px;
+	background-color: rgba(0, 0, 0, .8);
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 35px;
+	margin: 20px 0;
+}
+
+
+/*Contact Page*/
+.social {
+	width: 340px;
+}
+
+.SMCircles {
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+/*Specific Album Pages*/
+.AlbumPages h1 {
+	margin-top: 30px;
+}
+
+#photoArea {
+	width: 340px;
+}
+
+.albumPages img {
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
 }
