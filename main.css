@@ -117,7 +117,6 @@ a {
 	margin: 20px 0;
 }
 
-
 /*Contact Page*/
 .social {
 	width: 340px;
@@ -140,10 +139,18 @@ a {
 	width: 340px;
 }
 
+#photoArea img {
+	margin-bottom: 30px;
+}
+
 .albumPages img {
 	height: 200px;
 	width: 200px;
 	margin: 0 auto;
+}
+
+.albumsMain {
+	text-align: center;
 }
 
 /*tablet*/
