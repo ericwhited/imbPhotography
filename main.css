@@ -158,7 +158,7 @@ a {
 @media all and (min-width: 1900px) {
 	body {
 		background-color: white;
-		width: 1900px;
+		width: 1800px;
 	}
 
 
@@ -195,14 +195,41 @@ a {
 		left: 435px;
 	}
 
+	/*Nav Section*/
+	header {
+		width: 1800px;
+	}
+
 	nav {
-		width: 1894px;
+		width: 1700px;
 		border: solid 3px;
 		border-color: rgba(0, 0, 0, .8);
+		margin: 0 auto;
+		margin-bottom: 90px;
 	}
 
 	nav li {
 		padding: 30px 200px;
 		margin: 0 30px;
+	}
+
+	/*social section*/
+	.social {
+		width: 1800px;
+		text-align: center;
+	}
+
+	/*Album Page CSS*/
+	.albums {
+		width: 1000px;
+	}
+
+	.albumArea {
+		margin: 0 auto;
+		width: 1000px;
+	}
+
+	.albumsMain {
+		text-align: center;
 	}
 }
