@@ -1,7 +1,7 @@
 // After three seconds the email div pops up.
 setTimeout(function() {
 	document.querySelector('.modal').style = 'display: block;'}, 
-	3000);
+	1000);
 
 
 
