@@ -49,7 +49,7 @@
 
 /*main styling*/
 body {
-	width: 350px;
+	width: 500px;
 	margin: 0 auto;
 	background-color: white;
 	font-family: 'Montserrat', sans-serif;
@@ -115,7 +115,7 @@ a {
 	text-align: center;
 	padding-top: 50px;
 	font-size: 35px;
-	margin: 20px 0;
+	margin: 20px auto;
 }
 
 /*Contact Page*/
