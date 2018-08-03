@@ -49,7 +49,6 @@
 
 /*main styling*/
 body {
-	width: 500px;
 	margin: 0 auto;
 	background-color: white;
 	font-family: 'Montserrat', sans-serif;
@@ -158,7 +157,7 @@ a {
 @media all and (min-width: 760px) {
 	body {
 		/*background-color: red;*/
-		width: 700px;
+		
 	}
 
 
