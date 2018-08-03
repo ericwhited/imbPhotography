@@ -94,9 +94,9 @@ ul {
 
 li {
 	display: inline-block;
-	font-size: 20px;
+	font-size: 30px;
 	margin: 5px 0;
-	padding: 14px 17px;	
+	padding: 30px 90px;	
 }
 
 a {
@@ -120,6 +120,7 @@ a {
 /*Contact Page*/
 .social {
 	width: 340px;
+	margin:  0 auto;
 }
 
 .SMCircles {
@@ -131,16 +132,26 @@ a {
 }
 
 /*Specific Album Pages*/
-.AlbumPages h1 {
-	margin-top: 30px;
+#backArrow {
+	padding-right: 30px;
+	margin-top: 50px;
+	height: 100px;
+	width: 100px;
+}
+
+.albumsMain h1 {
+	margin: 25px 0;
+	font-size: 75px;
 }
 
 #photoArea {
-	width: 340px;
+	margin: 0 auto;
 }
 
 #photoArea img {
-	margin-bottom: 30px;
+	margin: 10px;
+	height: 800px;
+	width: 800px;
 }
 
 .albumPages img {
@@ -217,7 +228,7 @@ a {
 
 	nav li {
 		padding: 30px 200px;
-		margin: 0 30px;
+		margin: 0 10px;
 	}
 
 	/*social section*/
