@@ -1,6 +1,7 @@
 // After three seconds the email div pops up.
+//change display to block to bring modal back
 setTimeout(function() {
-	document.querySelector('.modal').style = 'display: block;'}, 
+	document.querySelector('.modal').style = 'display: none;'}, 
 	1000);
 
 
